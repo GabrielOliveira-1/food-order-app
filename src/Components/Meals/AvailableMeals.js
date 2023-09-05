@@ -17,7 +17,7 @@ const DUMMY_MEALS = [
   },
   {
     id: "m3",
-    name: "Barbecue plant Burger",
+    name: "Barbecue Plant Burger",
     description: "American, juicy and plant-based",
     price: 10.99,
   },
