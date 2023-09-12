@@ -1,6 +1,6 @@
 # Food Order App
 
-Welcome to the Food Order App repository! This is a React-based application for ordering food items. This README will provide an overview of the key concepts and features implemented in this project.
+Food Order App Repository! This is a React-based application for ordering food items. This README will provide an overview of the key concepts and features implemented in this project.
 
 ## Table of Contents
 
@@ -48,7 +48,7 @@ Forms and form inputs are used for user interactions, such as adding items to th
 
 ### Cart Components
 
-Various components related to the cart, like the cart icon, cart sidebar, and cart item list, are implemented.
+It contains components related to the cart, like the cart icon, cart sidebar, cart item list, and cart item display components, which are implemented.
 
 ### Modal Components
 
