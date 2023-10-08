@@ -3,7 +3,7 @@ import React, { useContext, useState } from "react";
 import Modal from "./../UI/Modal";
 import CartItem from "./CartItem";
 import classes from "./Cart.module.css";
-import CartContext from "../../Store/cart-content";
+import CartContext from "../../Store/cart-context";
 import Checkout from "./Checkout";
 
 const Cart = (props) => {
@@ -41,6 +41,7 @@ const Cart = (props) => {
     );
     setIsSubmitting(false);
     setDidSubmit(true);
+    cartCtx.clearCart();
   };
 
   const cartItems = (
